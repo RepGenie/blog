@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20120121223819
+# Schema version: 20120121231720
 #
 # Table name: articles
 #
@@ -9,6 +9,8 @@
 #  published_at :datetime
 #  created_at   :datetime
 #  updated_at   :datetime
+#  excerpt      :string(255)
+#  location     :string(255)
 #
 
 class Article < ActiveRecord::Base
